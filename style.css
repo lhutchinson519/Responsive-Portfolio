@@ -63,6 +63,7 @@ h3 {
   border-bottom: 2px solid #ccc;
 }
 
+
 #logo {
   float: left;
   width: 250px;
@@ -251,8 +252,14 @@ input[type=submit] {
 } 
 
 @media screen and (max-width: 640px) {
- .sidebar {
+ .sidebar{
     float: left;
     width: 70%;
   }
+
+  #masthead {
+    position: static;
+  }
+
 } 
+
